@@ -16,7 +16,7 @@ from googletrans import Translator
 
 
 st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.subheader("Puedo traducirlo todo")
 
 
 image = Image.open('Google_Translate_logo.svg.png')
@@ -29,7 +29,7 @@ with st.sidebar:
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Toca el Botón y habla lo que quires traducir")
+st.write("Toca el Botón para traducir")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
